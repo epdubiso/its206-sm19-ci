@@ -17,6 +17,6 @@ $this->load->view($this->config->item('theme') . 'header');
     <input type="submit" name="submit" value="Create news item" />
 
 </form>
-<?php endforeach; 
+<?php 
 $this->load->view($this->config->item('theme') . 'footer');
 ?>
